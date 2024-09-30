@@ -1,40 +1,38 @@
-/* עיצוב כללי לגוף העמוד */
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f5e7; /* צבע קרם בהיר מאוד */
+  background-color: #f9f5e7; 
   margin: 0;
   padding: 0;
 }
 
-/* עיצוב כללי לקונטיינר */
 .container {
   text-align: center;
   padding: 5%;
 }
 
-/* עיצוב לכותרת h1 */
 h1 {
-  background-color: #e0c3fc; /* רקע סגול בהיר */
-  border: 2px solid #b39ddb; /* מסגרת בגוון כהה יותר */
-  border-radius: 15px; /* רדיוס עיגול לפינות */
+  background-color: #e0c3fc; 
+  border: 2px solid #b39ddb; 
+  border-radius: 15px;
   padding: 20px;
   color: #333;
   max-width: 80%;
   margin: 20px auto;
-  box-shadow: 0 0 15px rgba(179, 157, 219, 0.6); /* Gradient טשטוש למסגרת */
+  box-shadow: 0 0 15px rgba(179, 157, 219, 0.6); 
   text-align: center;
 }
 
-/* עיצוב לכפתורים */
+
 .question {
   display: inline-block;
   width: 120px;
   height: 120px;
-  margin: 10px; /* מרווח בין הכפתורים */
+  margin: 10px; 
 }
 
 .question button {
-  background-color: #4CAF50; /* צבע רקע ירוק */
+  background-color: #4CAF50; 
   border: none;
   color: white;
   padding: 10px;
@@ -50,20 +48,19 @@ h1 {
   background-color: #45a049;
 }
 
-/* עיצוב לאזור התוצאות */
+
 #result {
   margin-top: 20px;
   text-align: center;
   color: green;
 }
 
-/* עיצוב להודעה */
+
 #message {
   font-weight: bold;
   font-size: xx-large;
 }
 
-/* עיצוב לדיב שמכיל את השאלות */
 #question-buttons {
   display: flex;
   justify-content: center;
